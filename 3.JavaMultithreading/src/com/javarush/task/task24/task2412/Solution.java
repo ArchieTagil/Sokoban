@@ -46,7 +46,9 @@ public class Solution {
     public static void sort(List<Stock> list) {
         list.sort(new Comparator<Stock>() {
             public int compare(Stock stock1, Stock stock2) {
-                return ((String) stock1.get("name")).compareTo((String) stock2.get("name"));
+                return ((String) stock1.get("name")).charAt(0) != ((String) stock2.get("name")).charAt(0) ?
+                        ((String) stock1.get("name")).compareTo((String) stock2.get("name")) :
+                        ((Date) stock1.get("date")).compareTo((Date) stock2.get("date"));
             }
         });
     }
