@@ -1,2 +1,2 @@
 # Sokoban
-Main methon in Controller class
+Main method in Controller class
