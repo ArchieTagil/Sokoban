@@ -1,9 +1,9 @@
-package com.javarush.task.task34.task3410.controller;
+package controller;
 
-import com.javarush.task.task34.task3410.model.Direction;
-import com.javarush.task.task34.task3410.model.GameObjects;
-import com.javarush.task.task34.task3410.model.Model;
-import com.javarush.task.task34.task3410.view.View;
+import model.Direction;
+import model.GameObjects;
+import model.Model;
+import view.View;
 
 public class Controller implements EventListener {
     private View view;

@@ -1,4 +1,4 @@
-package com.javarush.task.task34.task3410.model;
+package model;
 
 public enum Direction {
     RIGHT, LEFT, UP, DOWN

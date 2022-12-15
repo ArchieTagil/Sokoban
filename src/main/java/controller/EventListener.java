@@ -1,6 +1,6 @@
-package com.javarush.task.task34.task3410.controller;
+package controller;
 
-import com.javarush.task.task34.task3410.model.Direction;
+import model.Direction;
 
 public interface EventListener {
     public void move(Direction direction);

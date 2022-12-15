@@ -1,6 +1,6 @@
-package com.javarush.task.task34.task3410.model;
+package model;
 
-import com.javarush.task.task34.task3410.controller.EventListener;
+import controller.EventListener;
 
 import java.net.URISyntaxException;
 import java.nio.file.Paths;
@@ -13,11 +13,10 @@ public class Model {
     LevelLoader levelLoader;
 
     {
-        try {
-            levelLoader = new LevelLoader(Paths.get(this.getClass().getResource("../res/levels.txt").toURI()));
-        } catch (URISyntaxException e) {
-            throw new RuntimeException(e);
-        }
+
+            levelLoader = new LevelLoader(Paths.get("./src/main/resources/levels.txt"));
+            System.out.println(levelLoader.toString());
+
     }
 
     private EventListener eventListener;

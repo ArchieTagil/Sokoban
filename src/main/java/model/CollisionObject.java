@@ -1,4 +1,4 @@
-package com.javarush.task.task34.task3410.model;
+package model;
 
 public abstract class CollisionObject extends GameObject {
     public CollisionObject(int x, int y) {

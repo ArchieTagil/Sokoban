@@ -1,7 +1,8 @@
-package com.javarush.task.task34.task3410.view;
+package view;
 
-import com.javarush.task.task34.task3410.controller.EventListener;
-import com.javarush.task.task34.task3410.model.*;
+import controller.EventListener;
+import model.Direction;
+import model.GameObject;
 
 import javax.swing.*;
 import java.awt.*;
